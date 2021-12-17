@@ -1,0 +1,25 @@
+/*
+ * This file is part of the Runr package.
+ *
+ * (c) François Pluchino <francois.pluchino@gmail.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+.participant-detail {
+  &.v-table {
+    width: 100%;
+
+    td {
+      word-break: break-word;
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+      font-size: inherit;
+    }
+
+    .v-icon {
+      vertical-align: baseline;
+    }
+  }
+}
